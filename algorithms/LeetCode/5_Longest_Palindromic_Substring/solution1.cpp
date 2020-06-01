@@ -4,6 +4,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// 中心扩散法
 class Solution {
 public:
     string longestPalindrome(string s) {
