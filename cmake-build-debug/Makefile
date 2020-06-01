@@ -123,87 +123,6 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-algorithms/1_Two_Sum/1_Two_Sum-1.o: algorithms/1_Two_Sum/1_Two_Sum-1.cpp.o
-
-.PHONY : algorithms/1_Two_Sum/1_Two_Sum-1.o
-
-# target to build an object file
-algorithms/1_Two_Sum/1_Two_Sum-1.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/algorithms/1_Two_Sum/1_Two_Sum-1.cpp.o
-.PHONY : algorithms/1_Two_Sum/1_Two_Sum-1.cpp.o
-
-algorithms/1_Two_Sum/1_Two_Sum-1.i: algorithms/1_Two_Sum/1_Two_Sum-1.cpp.i
-
-.PHONY : algorithms/1_Two_Sum/1_Two_Sum-1.i
-
-# target to preprocess a source file
-algorithms/1_Two_Sum/1_Two_Sum-1.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/algorithms/1_Two_Sum/1_Two_Sum-1.cpp.i
-.PHONY : algorithms/1_Two_Sum/1_Two_Sum-1.cpp.i
-
-algorithms/1_Two_Sum/1_Two_Sum-1.s: algorithms/1_Two_Sum/1_Two_Sum-1.cpp.s
-
-.PHONY : algorithms/1_Two_Sum/1_Two_Sum-1.s
-
-# target to generate assembly for a file
-algorithms/1_Two_Sum/1_Two_Sum-1.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/algorithms/1_Two_Sum/1_Two_Sum-1.cpp.s
-.PHONY : algorithms/1_Two_Sum/1_Two_Sum-1.cpp.s
-
-algorithms/2_Add_Two_Numbers/main.o: algorithms/2_Add_Two_Numbers/main.cpp.o
-
-.PHONY : algorithms/2_Add_Two_Numbers/main.o
-
-# target to build an object file
-algorithms/2_Add_Two_Numbers/main.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/algorithms/2_Add_Two_Numbers/main.cpp.o
-.PHONY : algorithms/2_Add_Two_Numbers/main.cpp.o
-
-algorithms/2_Add_Two_Numbers/main.i: algorithms/2_Add_Two_Numbers/main.cpp.i
-
-.PHONY : algorithms/2_Add_Two_Numbers/main.i
-
-# target to preprocess a source file
-algorithms/2_Add_Two_Numbers/main.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/algorithms/2_Add_Two_Numbers/main.cpp.i
-.PHONY : algorithms/2_Add_Two_Numbers/main.cpp.i
-
-algorithms/2_Add_Two_Numbers/main.s: algorithms/2_Add_Two_Numbers/main.cpp.s
-
-.PHONY : algorithms/2_Add_Two_Numbers/main.s
-
-# target to generate assembly for a file
-algorithms/2_Add_Two_Numbers/main.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/algorithms/2_Add_Two_Numbers/main.cpp.s
-.PHONY : algorithms/2_Add_Two_Numbers/main.cpp.s
-
-algorithms/7_Reverse_Integer/main.o: algorithms/7_Reverse_Integer/main.cpp.o
-
-.PHONY : algorithms/7_Reverse_Integer/main.o
-
-# target to build an object file
-algorithms/7_Reverse_Integer/main.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/algorithms/7_Reverse_Integer/main.cpp.o
-.PHONY : algorithms/7_Reverse_Integer/main.cpp.o
-
-algorithms/7_Reverse_Integer/main.i: algorithms/7_Reverse_Integer/main.cpp.i
-
-.PHONY : algorithms/7_Reverse_Integer/main.i
-
-# target to preprocess a source file
-algorithms/7_Reverse_Integer/main.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/algorithms/7_Reverse_Integer/main.cpp.i
-.PHONY : algorithms/7_Reverse_Integer/main.cpp.i
-
-algorithms/7_Reverse_Integer/main.s: algorithms/7_Reverse_Integer/main.cpp.s
-
-.PHONY : algorithms/7_Reverse_Integer/main.s
-
-# target to generate assembly for a file
-algorithms/7_Reverse_Integer/main.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/algorithms/7_Reverse_Integer/main.cpp.s
-.PHONY : algorithms/7_Reverse_Integer/main.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -240,15 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... untitled"
-	@echo "... algorithms/1_Two_Sum/1_Two_Sum-1.o"
-	@echo "... algorithms/1_Two_Sum/1_Two_Sum-1.i"
-	@echo "... algorithms/1_Two_Sum/1_Two_Sum-1.s"
-	@echo "... algorithms/2_Add_Two_Numbers/main.o"
-	@echo "... algorithms/2_Add_Two_Numbers/main.i"
-	@echo "... algorithms/2_Add_Two_Numbers/main.s"
-	@echo "... algorithms/7_Reverse_Integer/main.o"
-	@echo "... algorithms/7_Reverse_Integer/main.i"
-	@echo "... algorithms/7_Reverse_Integer/main.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

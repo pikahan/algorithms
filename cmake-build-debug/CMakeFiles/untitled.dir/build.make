@@ -70,62 +70,17 @@ CMakeFiles/untitled.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
 	/usr/local/Cellar/gcc/9.3.0_1/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yanghanling/CLionProjects/untitled/main.cpp -o CMakeFiles/untitled.dir/main.cpp.s
 
-CMakeFiles/untitled.dir/algorithms/1_Two_Sum/1_Two_Sum-1.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/algorithms/1_Two_Sum/1_Two_Sum-1.cpp.o: ../algorithms/1_Two_Sum/1_Two_Sum-1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghanling/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/algorithms/1_Two_Sum/1_Two_Sum-1.cpp.o"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/algorithms/1_Two_Sum/1_Two_Sum-1.cpp.o -c /Users/yanghanling/CLionProjects/untitled/algorithms/1_Two_Sum/1_Two_Sum-1.cpp
-
-CMakeFiles/untitled.dir/algorithms/1_Two_Sum/1_Two_Sum-1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/algorithms/1_Two_Sum/1_Two_Sum-1.cpp.i"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yanghanling/CLionProjects/untitled/algorithms/1_Two_Sum/1_Two_Sum-1.cpp > CMakeFiles/untitled.dir/algorithms/1_Two_Sum/1_Two_Sum-1.cpp.i
-
-CMakeFiles/untitled.dir/algorithms/1_Two_Sum/1_Two_Sum-1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/algorithms/1_Two_Sum/1_Two_Sum-1.cpp.s"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yanghanling/CLionProjects/untitled/algorithms/1_Two_Sum/1_Two_Sum-1.cpp -o CMakeFiles/untitled.dir/algorithms/1_Two_Sum/1_Two_Sum-1.cpp.s
-
-CMakeFiles/untitled.dir/algorithms/2_Add_Two_Numbers/main.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/algorithms/2_Add_Two_Numbers/main.cpp.o: ../algorithms/2_Add_Two_Numbers/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghanling/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/algorithms/2_Add_Two_Numbers/main.cpp.o"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/algorithms/2_Add_Two_Numbers/main.cpp.o -c /Users/yanghanling/CLionProjects/untitled/algorithms/2_Add_Two_Numbers/main.cpp
-
-CMakeFiles/untitled.dir/algorithms/2_Add_Two_Numbers/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/algorithms/2_Add_Two_Numbers/main.cpp.i"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yanghanling/CLionProjects/untitled/algorithms/2_Add_Two_Numbers/main.cpp > CMakeFiles/untitled.dir/algorithms/2_Add_Two_Numbers/main.cpp.i
-
-CMakeFiles/untitled.dir/algorithms/2_Add_Two_Numbers/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/algorithms/2_Add_Two_Numbers/main.cpp.s"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yanghanling/CLionProjects/untitled/algorithms/2_Add_Two_Numbers/main.cpp -o CMakeFiles/untitled.dir/algorithms/2_Add_Two_Numbers/main.cpp.s
-
-CMakeFiles/untitled.dir/algorithms/7_Reverse_Integer/main.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/algorithms/7_Reverse_Integer/main.cpp.o: ../algorithms/7_Reverse_Integer/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghanling/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/algorithms/7_Reverse_Integer/main.cpp.o"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/algorithms/7_Reverse_Integer/main.cpp.o -c /Users/yanghanling/CLionProjects/untitled/algorithms/7_Reverse_Integer/main.cpp
-
-CMakeFiles/untitled.dir/algorithms/7_Reverse_Integer/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/algorithms/7_Reverse_Integer/main.cpp.i"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yanghanling/CLionProjects/untitled/algorithms/7_Reverse_Integer/main.cpp > CMakeFiles/untitled.dir/algorithms/7_Reverse_Integer/main.cpp.i
-
-CMakeFiles/untitled.dir/algorithms/7_Reverse_Integer/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/algorithms/7_Reverse_Integer/main.cpp.s"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yanghanling/CLionProjects/untitled/algorithms/7_Reverse_Integer/main.cpp -o CMakeFiles/untitled.dir/algorithms/7_Reverse_Integer/main.cpp.s
-
 # Object files for target untitled
 untitled_OBJECTS = \
-"CMakeFiles/untitled.dir/main.cpp.o" \
-"CMakeFiles/untitled.dir/algorithms/1_Two_Sum/1_Two_Sum-1.cpp.o" \
-"CMakeFiles/untitled.dir/algorithms/2_Add_Two_Numbers/main.cpp.o" \
-"CMakeFiles/untitled.dir/algorithms/7_Reverse_Integer/main.cpp.o"
+"CMakeFiles/untitled.dir/main.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled: CMakeFiles/untitled.dir/main.cpp.o
-untitled: CMakeFiles/untitled.dir/algorithms/1_Two_Sum/1_Two_Sum-1.cpp.o
-untitled: CMakeFiles/untitled.dir/algorithms/2_Add_Two_Numbers/main.cpp.o
-untitled: CMakeFiles/untitled.dir/algorithms/7_Reverse_Integer/main.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yanghanling/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yanghanling/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,9 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/yanghanling/CLionProjects/untitled/algorithms/1_Two_Sum/1_Two_Sum-1.cpp" "/Users/yanghanling/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/algorithms/1_Two_Sum/1_Two_Sum-1.cpp.o"
-  "/Users/yanghanling/CLionProjects/untitled/algorithms/2_Add_Two_Numbers/main.cpp" "/Users/yanghanling/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/algorithms/2_Add_Two_Numbers/main.cpp.o"
-  "/Users/yanghanling/CLionProjects/untitled/algorithms/7_Reverse_Integer/main.cpp" "/Users/yanghanling/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/algorithms/7_Reverse_Integer/main.cpp.o"
   "/Users/yanghanling/CLionProjects/untitled/main.cpp" "/Users/yanghanling/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

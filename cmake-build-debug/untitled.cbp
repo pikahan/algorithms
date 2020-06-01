@@ -92,15 +92,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/yanghanling/CLionProjects/untitled/algorithms/1_Two_Sum/1_Two_Sum-1.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/Users/yanghanling/CLionProjects/untitled/algorithms/2_Add_Two_Numbers/main.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/Users/yanghanling/CLionProjects/untitled/algorithms/7_Reverse_Integer/main.cpp">
-			<Option target="untitled"/>
-		</Unit>
 		<Unit filename="/Users/yanghanling/CLionProjects/untitled/main.cpp">
 			<Option target="untitled"/>
 		</Unit>
