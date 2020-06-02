@@ -4,41 +4,47 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//双指针, 难点主要是处理重复的问题, 因此排序后非常好处理, 如果还是按照2Sum的做法, 重复的问题非常难以处理, 所以此题使用了双指针的方式
+
 class Solution {
 public:
-    string longestPalindrome(string s) {
-        if (s.size() == 0) return "";
-        string ret(1, s[0]);
-        for (int i = 0; i < s.size(); i++) {
-            int leftPos = i-1;
-            int rightPos = i+1;
+    vector<vector<int>> threeSum(vector<int>& nums) {
+        vector<vector<int>> ret;
+        if (nums.size() < 3) {
+            return {};
+        }
+        sort(nums.begin(), nums.end());
+        for (int i = 0; i < nums.size() - 2; i++) {
+            if (i > 0 && nums[i] == nums[i-1]) continue;
 
-            while (leftPos >= 0 && rightPos < s.size() && s[leftPos] == s[rightPos]) {
-                leftPos--;
-                rightPos++;
-            }
-            int palindromicLength = rightPos - leftPos - 1;
-            if (palindromicLength > ret.length()) {
-                ret = s.substr(leftPos + 1, palindromicLength);
+            int targetValue = -nums[i];
+            int leftPos = i + 1;
+            int rightPos = nums.size() - 1;
+            while (leftPos < rightPos) {
+                int sum = nums[leftPos] + nums[rightPos];
+                if (sum == targetValue && leftPos < rightPos) {
+                    ret.push_back({ nums[i], nums[leftPos], nums[rightPos] });
+                    leftPos++;
+                    rightPos--;
+                    while (nums[leftPos] == nums[leftPos-1] && leftPos < rightPos) leftPos++;
+                    while (nums[rightPos] == nums[rightPos+1] && leftPos < rightPos) rightPos--;
+                } else {
+                    if (sum > targetValue) rightPos--;
+                    else if (sum < targetValue) leftPos++;
+                }
+
+
             }
 
-            leftPos = i;
-            rightPos = i + 1;
-            while (leftPos >= 0 && rightPos < s.size() && s[leftPos] == s[rightPos]) {
-                leftPos--;
-                rightPos++;
-            }
-            palindromicLength = rightPos - leftPos - 1;
-            if (palindromicLength > ret.length()) {
-                ret = s.substr(leftPos + 1, palindromicLength);
-            }
         }
         return ret;
     }
 };
 
+
 int main() {
-    Solution().longestPalindrome("cbbd");
+    vector<int> v(4,2);
+    Solution().threeSum(v);
 
 
     return 0;
