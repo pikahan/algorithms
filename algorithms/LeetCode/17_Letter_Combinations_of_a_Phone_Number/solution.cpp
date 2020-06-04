@@ -1,3 +1,7 @@
+//
+// Created by 杨寒凌 on 2020/6/4.
+//
+
 #include <bits/stdc++.h>
 using namespace std;
 class Solution {
@@ -27,10 +31,3 @@ public:
 
     }
 };
-
-int main() {
-    vector<string> r = Solution().letterCombinations("23");
-    for (int i = 0; i < r.size(); i++) {
-        cout << r[i];
-    }
-}

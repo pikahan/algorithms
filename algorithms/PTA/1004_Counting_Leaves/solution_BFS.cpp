@@ -9,7 +9,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// BFC做法
+// BFS做法
 
 int main() {
     queue<string> queue;
