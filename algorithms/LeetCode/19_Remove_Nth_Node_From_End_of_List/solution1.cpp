@@ -1,3 +1,7 @@
+//
+// Created by 杨寒凌 on 2020/6/4.
+//
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -30,7 +34,7 @@ public:
             len++;
             curr = curr->next;
         }
-        n = len - n - 1;
+        n = len - n;
 
         if (n == 0) return head->next;
         curr = head;
